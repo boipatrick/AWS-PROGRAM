@@ -234,3 +234,75 @@ You can use it to deploy a model to get predicitions in several ways;
 
 # MLOps
 MLOps combines people, technology, and processses to deliver collaborative ML solutions  
+
+It refers to the practice of operationalizing and streamlining the end-to-end machine lifecycle from model developmnt and deployment to monitoring and maintenance.
+
+ It helps ensure that models are not just developed but also deployed, monitored, and retrained systematically and repeatedly.
+
+ It is an extension of the DevOps principles and practces to the specific domain of ML systems
+
+ Just like Devops, MLOps relies on a collaborative and streamlined approach to the ML development lifecycle. It is the intersection of people, process, and technology that optimizes end to end activities required to develop, build, and operate machine learning workloads.
+
+ ## Using MLOps
+ Apps that expose trained models might have differet hosting requirements and strategies than standard apps.
+
+ Trained models are sensitive to changes in data; therefore, a model-based app that works well when first implemented might not perform as well days,weeks,or months after being implemented.
+
+ To account for these differences, you need different processes and procedures for applications that are based in managing ML
+
+ MLOps accouns for the unique aspects of AI and ML projects in project management, CI/CD, na quality assurance.
+
+ With it, you can improve delivery time, reduce defects, and make data science more productive.
+
+ ## Goals of MLOps
+
+ get ML workloads into production and keep them operating.
+ To meet this goal, MLOps adopts many DevOps principles and practices for the development, training, deployment, monitoring, and retraining of ML models. The aim is to use MLops to do the following:
+ - increase the pace of the model development lifecycle via automation.
+ - improve quality metrics via testing and monitoring
+ - promote a culture of collaboration between data scientists, data engineers, SE and IT operations
+ - provide transparency, audibility and security of models by using model governance.
+
+
+ ## Benenfits of MLOps
+ - productivity
+ - Reliability
+ - Repeatability
+ - Auditability
+ - Data and Model Quality. 
+
+
+ ## Key principles of MLOps
+ The key principles of MLOps include:
+ - version control
+ - automation
+- CI/CD
+- Model governance
+
+## ML Lifecycle and MLOps
+Most ML workloads involve the management of code, data, and models.
+
+Managing code, data, and models throughout the ML lifecycle requires the following touchpoints:
+- processing code in data preparation
+- training data and training code in model building
+- candidate modesl, test and validation data in model evaluation.
+- metadata during model selection
+- deployment-ready models and inference code during deployment
+- production code, models and data for monitoring
+
+## Implementing MLOps
+- Data Preparation
+- Model build - the model building pipeline creates new modelsupon initiation, for instance when new data becomes available
+- Model evaluation - when the moel building pipeline completes, you can implement quality control measures at the model redistration step. The quality control step can be either manual or automated. If a model meets baseline performance metrics, it can be registered with a model registry. 
+
+- model approval- you can use the registry to approve or reject model versions. The model approval acion can act as an initiation to start the deployment pipleline.
+
+- Model deployment - the deployment pipeline is most similar to traditional CI/CD systems. This pipeline includes steps such as the following:
+Source
+Build
+Deployment to staging environment
+Testing
+Promotion to production environment
+
+- model in production - as soon as the model is in production, you should get feedback from the live system. For ML solutions, monitor the hosting infrastructure, data quality, and model performance.
+

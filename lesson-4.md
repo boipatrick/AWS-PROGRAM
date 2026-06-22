@@ -306,3 +306,33 @@ Promotion to production environment
 
 - model in production - as soon as the model is in production, you should get feedback from the live system. For ML solutions, monitor the hosting infrastructure, data quality, and model performance.
 
+## Evaluate Results
+
+To determine whether a foundational model meets business objectives, it is essential to align the model's capabilities with the specific requirements and goals of the organization
+
+Types of Evaluation Models
+Human evaluation
+It can be time consuming and expensive
+
+2. Benchmark datasets:
+curated collections of data designed specifically for evaluating the performance of language models or other AI systems. 
+
+Some popular benchmark datasets for natural language processing tasks include the following:
+
+- The General Language Understanding Evaluation (GLUE) benchmark is a collection of datasets for evaluating language understanding tasks like text classification, question answering, and natural language inference.
+
+- SuperGLUE is an extension of GLUE with more challenging tasks and a focus on compositional language understanding.
+- Stanford Question Answering Dataset (SQuAD) is a dataset for evaluating question-answering capabilities.
+- Workshop on Machine Translation (WMT) is a series of datasets and tasks for evaluating machine translation systems.
+
+3. Automated metrics
+
+
+## Deploying the Application
+This phase of the gen AI lifecycle ensures that the trained model is successfully integrated into the target environment for practical use. 
+
+## Key considerations
+Cost
+Regions
+Quotas
+Security
